@@ -22,6 +22,6 @@ public class BoardDTO {
 	private int pseq;
 	private int reply;
 	private int hit;
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy.MM.dd HH:mm", timezone = "Asia/Seoul")
 	private Date logtime;
 }
